@@ -1,0 +1,10 @@
+# AndroidStream — PC App Requirements
+# تثبيت عبر: pip install -r requirements.txt
+
+PyQt6>=6.4.0
+opencv-python>=4.7.0
+pyvirtualcam>=0.10.0
+numpy>=1.23.0
+
+# ملاحظة: pyvirtualcam على Windows يحتاج OBS VirtualCam (مدمج في OBS 28+)
+# على Linux: sudo modprobe v4l2loopback
